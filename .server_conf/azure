@@ -1,0 +1,19 @@
+# sample conf
+[azure-s1]
+user=centos
+ip=192.168.15.15
+port=6753
+key=#absolute path to key file
+
+[azure-s2]
+user=ubuntu
+ip=13.126.105.40
+port=22
+key=#absolute path to key file
+
+[azure-s3]
+user=test
+ip=192.168.15.17
+port=7890
+pass=password123
+
