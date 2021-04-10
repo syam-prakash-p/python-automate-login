@@ -10,9 +10,7 @@ syam@localhost:~/projects/scripts/login$ pwd
 /home/syam/projects/scripts/login
 
 syam@localhost:~/projects/scripts/login$ tree -a
-.
-├── .keys                 # key files
-│   └── key.pem           
+
 ├── login.py              # login script
 └── .server_conf          # server config data directory
     ├── aws               # change files with your server details
