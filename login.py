@@ -21,19 +21,17 @@ def display_and_return(input_list,type):
 
     def get_and_validate():
 
-        try:
-            prov = input(f"choose a {type}/ q to quite : ")
-            if prov =='q':
-                return False
+        prov = input(f"choose a {type}/ q to quite : ")
+        if prov =='q':
+            return False
+        else:
+            
+            if prov.isdigit():
+                val=input_list[int(prov)]
             else:
-
-                prov = int(prov)
-                val=input_list[prov]
-        except:
-            print("invalid input")
-            val=get_and_validate()
-        return val
-
+                print("invalid input")
+                val=get_and_validate()
+            return val
 
     return get_and_validate()
 
